@@ -1,0 +1,27 @@
+
+
+/* main-content */
+.box-header {
+}
+
+.main-content .box-heading h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: none;
+    line-height: 30px;
+    margin: 0;
+}
+
+
+
+.soft-input span {
+    padding-top: 1px;
+    font-size: 13px;
+    position: relative;
+    color: #707070;
+}
+
+.product-border {
+    border: 1px solid #f4f4f4;
+    margin-bottom: 30px;
+}

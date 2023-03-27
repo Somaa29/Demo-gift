@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Assignmentc#4.props" />
+</Project>

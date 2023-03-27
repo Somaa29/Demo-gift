@@ -1,0 +1,347 @@
+﻿ul {
+    list-style: none;
+}
+
+body {
+    margin-bottom: 0px;
+}
+
+.container {
+    width: 1170px;
+}
+/* banner */
+.banner img {
+    width: 1519px;
+}
+/* brand */
+.brand {
+    padding: 30px 0;
+    background-color: #fff3f3;
+}
+
+    .brand .heading {
+        padding-top: 20px;
+        float: right;
+    }
+
+.heading h2 {
+    line-height: 28px;
+}
+
+.heading .noi-bat {
+    color: #ff6564;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.carousel ul {
+    display: flex;
+}
+
+    .carousel ul li {
+        margin-right: 30px;
+    }
+/* Sản phẩm bán chạy */
+.hotdeal {
+    margin-top: 50px;
+}
+
+    .hotdeal h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+        .hotdeal h2 a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 25px;
+        }
+
+.border-wrap ul {
+    display: flex;
+    padding: 0;
+}
+
+    .border-wrap ul li {
+        margin-right: 30px;
+    }
+
+.product-border {
+    width: 262.5px;
+    height: 420px;
+    padding-left: 20px;
+    position: relative;
+    padding-right: 10px;
+}
+
+    .product-border .product-thumbnail img {
+        width: 258px;
+        height: 258px;
+        margin-left: -18px;
+    }
+
+.product-info {
+    margin-top: 10px;
+}
+
+    .product-info .product-name {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+    }
+
+        .product-info .product-name a {
+            color: black;
+            text-decoration: none;
+        }
+
+.spbanchay {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+    .spbanchay:hover {
+        color: #ff9897 !important;
+    }
+
+.product-price {
+    margin-top: 10px;
+}
+
+    .product-price .sale {
+        color: #ff9897;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .product-price .del {
+        text-decoration: line-through;
+        font-size: 13px;
+        font-weight: 400;
+        color: #888888;
+    }
+
+.flash-sale {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+    .flash-sale img {
+        width: 40px;
+        height: 40px;
+    }
+/*  */
+.section-noibat {
+    background-color: #fff3f3;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.content-sec {
+    margin-top: 30px;
+}
+
+.home-banner {
+    position: relative;
+    width: 262px;
+    height: 408px;
+    border-radius: 6px;
+    background: #fff;
+    border: 8px solid #ff9897;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-image: url(https://bizweb.dktcdn.net/100/336/334/themes/802154/assets/bg_module_1.png?1677439645301);
+}
+
+    .home-banner h2 {
+        position: absolute;
+        top: 70px;
+        font-size: 30px;
+        padding: 0 30px;
+        line-height: 42px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .home-banner a:hover {
+        color: #ff9897;
+    }
+
+    .home-banner h2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+.btn-shop {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 70px;
+    left: 28%;
+    right: 28%;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background: #ff9897;
+    color: #fff;
+    border: 1px solid transparent;
+    height: 40px;
+    padding-top: 8px;
+}
+
+    .btn-primary:hover {
+        background: #fff;
+        color: #ff9897;
+        border: 1px solid #ff6564;
+    }
+
+.content-sec {
+    display: flex;
+}
+
+    .content-sec .product-border {
+        background: #fff;
+        width: 260px;
+    }
+
+        .content-sec .product-border .product-thumbnail img {
+            margin-left: -20px;
+        }
+
+.section-moi {
+    background-color: #fff;
+    margin-top: 60px;
+}
+
+    .section-moi .home-banner {
+        background-image: url(https://bizweb.dktcdn.net/100/336/334/themes/802154/assets/bg_module_2.png?1677439645301);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+.section-hot {
+    background-color: #fff3f3;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+    .section-hot .home-banner {
+        background-image: url(https://bizweb.dktcdn.net/100/336/334/themes/802154/assets/bg_module_3.png?1677439645301);
+    }
+/* TIN TỨC & KHUYẾN MÃI */
+.title a:hover {
+    color: #ff6564;
+}
+
+.section-news {
+    margin-top: 50px;
+}
+
+    .section-news h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+        .section-news h2 a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 25px;
+        }
+
+.content-news ul {
+    display: flex;
+    padding: 0;
+}
+
+    .content-news ul li {
+        width: 360px;
+        margin-right: 30px;
+    }
+
+.content-news .product-img {
+    position: relative;
+}
+
+    .content-news .product-img img {
+        width: 360px;
+        height: 240px;
+    }
+
+    .content-news .product-img .content-left {
+        height: 60px;
+        background: #ff9897;
+        text-align: center;
+        width: 60px;
+        padding: 12px 5px 8px 5px;
+        border-radius: 50%;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        display: grid;
+    }
+
+.content-left .top-content {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 15px;
+    color: #fff;
+}
+
+.content-left .bot-content {
+    font-size: 9px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.content-news .product-info {
+    margin-top: 30px;
+}
+
+    .content-news .product-info h3 a {
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #363636;
+        text-decoration: none;
+    }
+
+        .content-news .product-info h3 a:hover {
+            color: #ff9897;
+        }
+
+.time-post {
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+}
+
+    .time-post i {
+        color: #ff9897;
+        padding-right: 5px;
+        font-size: 13px;
+    }
+
+.product-cmt {
+    margin-bottom: 15px;
+}
+
+    .product-cmt p {
+        margin-top: 12px;
+        color: #707070;
+        border-top: 1px solid #ebebeb;
+        padding-top: 15px;
+        font-size: 16px;
+    }

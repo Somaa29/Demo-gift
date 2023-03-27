@@ -1,0 +1,54 @@
+﻿@using System.Globalization;
+@model Assignmentc_4.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+<div style="margin-top:50px;">
+<div class="container">
+        <div class="row">
+            <div class="details-product">
+                <div class="details-product-left col-md-6">
+                    <div class="left-image">
+                        <a href="#"><img
+                                src="@(Model.ImgUrl)"
+                                alt=""></a>
+</div>
+           <div class="details-pro col-md-6">
+                    <h1 class="title-product text-break">@(Model.Name)</h1>
+                    <div class="fw w_100">
+                            <span class="first-status status-2">
+                                <span class="status-name">
+                                    <div>Tình Trạng: @(Model.Status == 1 ? "Còn hàng" : "Hết hàng")</div>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="price-box">
+                            <span class="special-price">
+                                <span class="price product-price">Giá: @string.Format(new CultureInfo("vi-VN"), "{0:C0}", Model.Price)</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-product">
+                            <div class="form-product-content">
+                                <div class="soluong">
+                                    <div class="label-sl">Số lượng tồn: @(Model.SoLuongTon)</div>
+                                   
+                                </div>
+                            </div>
+                   </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+        </div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
