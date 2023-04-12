@@ -9,5 +9,6 @@ namespace Assignmentc_4.IServices
         public bool DeleteCartDetail(Guid id);
         public List<CartDetail> GetAllCartDetails();
         public CartDetail GetCartDetailById(Guid id);
+        public List<CartDetail> GetCartDetailByName(string name);
     }
 }

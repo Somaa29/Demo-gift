@@ -6,12 +6,13 @@ namespace Assignmentc_4.Services
     public class ProductServices : IProductServices
     {
         AsmDbContext _dbContext;
-        public ProductServices() 
-        { 
+        public ProductServices()
+        {
             _dbContext = new AsmDbContext();
         }
         public bool CreateProduct(Product p)
         {
+
             try
             {
                 _dbContext.Products.Add(p);
@@ -62,7 +63,7 @@ namespace Assignmentc_4.Services
                 product.Name = p.Name;
                 product.SoLuongTon = p.SoLuongTon;
                 product.ImgUrl = p.ImgUrl;
-                product.Price = p.Price;                         
+                product.Price = p.Price;
                 product.Status = p.Status;
                 _dbContext.Products.Update(product);
                 _dbContext.SaveChanges();

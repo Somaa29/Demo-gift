@@ -5,84 +5,8 @@
       "PackagePath": "staticwebassets\\Assignmentc#4.bundle.scp.css"
     },
     {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\-GIAY-VANS-OLD-SKOOL-VN000VOKDIC1-(1).jpg",
-      "PackagePath": "staticwebassets\\Images\\-GIAY-VANS-OLD-SKOOL-VN000VOKDIC1-(1).jpg"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh1.jpg",
-      "PackagePath": "staticwebassets\\Images\\anh1.jpg"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh1.jpg.png",
-      "PackagePath": "staticwebassets\\Images\\anh1.jpg.png"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh1.webp",
-      "PackagePath": "staticwebassets\\Images\\anh1.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh10.webp",
-      "PackagePath": "staticwebassets\\Images\\anh10.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh2.webp",
-      "PackagePath": "staticwebassets\\Images\\anh2.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh3.webp",
-      "PackagePath": "staticwebassets\\Images\\anh3.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh4.webp",
-      "PackagePath": "staticwebassets\\Images\\anh4.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh5.png",
-      "PackagePath": "staticwebassets\\Images\\anh5.png"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh5.webp",
-      "PackagePath": "staticwebassets\\Images\\anh5.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh6.webp",
-      "PackagePath": "staticwebassets\\Images\\anh6.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh7.jpg",
-      "PackagePath": "staticwebassets\\Images\\anh7.jpg"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh7.webp",
-      "PackagePath": "staticwebassets\\Images\\anh7.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh8.webp",
-      "PackagePath": "staticwebassets\\Images\\anh8.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\anh9.webp",
-      "PackagePath": "staticwebassets\\Images\\anh9.webp"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\cac-loai-giay-vans-2.jpg",
-      "PackagePath": "staticwebassets\\Images\\cac-loai-giay-vans-2.jpg"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\giay-vans-mau-xanh-fb-1.jpg",
-      "PackagePath": "staticwebassets\\Images\\giay-vans-mau-xanh-fb-1.jpg"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\giay-vans-trang-den-06.jpg",
-      "PackagePath": "staticwebassets\\Images\\giay-vans-trang-den-06.jpg"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\images.jpg",
-      "PackagePath": "staticwebassets\\Images\\images.jpg"
-    },
-    {
-      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\Images\\vans-old-skool-trang-soc-do-replica-2.jpg",
-      "PackagePath": "staticwebassets\\Images\\vans-old-skool-trang-soc-do-replica-2.jpg"
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\css\\dangnhap.css",
+      "PackagePath": "staticwebassets\\css\\dangnhap.css"
     },
     {
       "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\css\\sanpham.css",
@@ -99,6 +23,118 @@
     {
       "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\-GIAY-VANS-OLD-SKOOL-VN000VOKDIC1-(1).jpg",
+      "PackagePath": "staticwebassets\\images\\-GIAY-VANS-OLD-SKOOL-VN000VOKDIC1-(1).jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\124478757_839455203547284_437077774316026899_n.jpg",
+      "PackagePath": "staticwebassets\\images\\124478757_839455203547284_437077774316026899_n.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\273048798_1318651828603136_8693247961023487982_n.jpg",
+      "PackagePath": "staticwebassets\\images\\273048798_1318651828603136_8693247961023487982_n.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\340025810_132351189795733_4434674481720285419_n.jpg",
+      "PackagePath": "staticwebassets\\images\\340025810_132351189795733_4434674481720285419_n.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\58659973_427380151360346_8696343540629766144_n.jpg",
+      "PackagePath": "staticwebassets\\images\\58659973_427380151360346_8696343540629766144_n.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh1.jpg",
+      "PackagePath": "staticwebassets\\images\\anh1.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh1.jpg.png",
+      "PackagePath": "staticwebassets\\images\\anh1.jpg.png"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh1.webp",
+      "PackagePath": "staticwebassets\\images\\anh1.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh10.webp",
+      "PackagePath": "staticwebassets\\images\\anh10.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh2.webp",
+      "PackagePath": "staticwebassets\\images\\anh2.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh3.webp",
+      "PackagePath": "staticwebassets\\images\\anh3.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh4.webp",
+      "PackagePath": "staticwebassets\\images\\anh4.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh5.png",
+      "PackagePath": "staticwebassets\\images\\anh5.png"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh5.webp",
+      "PackagePath": "staticwebassets\\images\\anh5.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh6.webp",
+      "PackagePath": "staticwebassets\\images\\anh6.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh7.jpg",
+      "PackagePath": "staticwebassets\\images\\anh7.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh7.webp",
+      "PackagePath": "staticwebassets\\images\\anh7.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh8.webp",
+      "PackagePath": "staticwebassets\\images\\anh8.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anh9.webp",
+      "PackagePath": "staticwebassets\\images\\anh9.webp"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\anhdep.jpg",
+      "PackagePath": "staticwebassets\\images\\anhdep.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\cac-loai-giay-vans-2.jpg",
+      "PackagePath": "staticwebassets\\images\\cac-loai-giay-vans-2.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\giay-vans-mau-xanh-fb-1.jpg",
+      "PackagePath": "staticwebassets\\images\\giay-vans-mau-xanh-fb-1.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\giay-vans-trang-den-06.jpg",
+      "PackagePath": "staticwebassets\\images\\giay-vans-trang-den-06.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\images.jpg",
+      "PackagePath": "staticwebassets\\images\\images.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\pngtree-accountavataruser--flat-color-icon--vector-icon-banner-templ-png-image_1491720.jpg",
+      "PackagePath": "staticwebassets\\images\\pngtree-accountavataruser--flat-color-icon--vector-icon-banner-templ-png-image_1491720.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\shopping-cart (2).png",
+      "PackagePath": "staticwebassets\\images\\shopping-cart (2).png"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\tải xuống.jpg",
+      "PackagePath": "staticwebassets\\images\\tải xuống.jpg"
+    },
+    {
+      "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\images\\vans-old-skool-trang-soc-do-replica-2.jpg",
+      "PackagePath": "staticwebassets\\images\\vans-old-skool-trang-soc-do-replica-2.jpg"
     },
     {
       "Id": "D:\\Asmc#4\\Assignmentc#4\\Assignmentc#4\\wwwroot\\js\\site.js",

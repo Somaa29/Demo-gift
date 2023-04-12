@@ -12,21 +12,6 @@
      <Link rel="stylesheet" href="~//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class=header>
-          <div class="mid-header">
-            <div class="container">
-                 <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Tìm Kiếm..." aria-label="Search"
-            style="width:350px">
-          <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"><svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-                viewBox="0 0 16 16">
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-              </svg></i></button>
-        </form>
-        </div>
-        <br />
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 60px;">
             <div class="collapse navbar-collapse" id="navbarSupportedContent"
                 style="height: 60px; background-color: #ff6564;">
@@ -34,21 +19,22 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page"
-                                style="text-decoration: none;color: white;font-weight: 500;font-size: 15px;text-transform: uppercase;" asp-area="" asp-controller="Home" asp-action="TrangChu">Trang chủ</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                style="text-decoration: none;color: white;font-weight: 500;font-size: 15px;text-transform: uppercase;" asp-area="" asp-controller="Home" asp-action="ShowAllProduct">Home</a>
+                                style="text-decoration: none;color: white;font-weight: 500;font-size: 15px;text-transform: uppercase;" asp-area="" asp-controller="Home" asp-action="TrangChu">Trang Chủ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page"
-                                style="text-decoration: none;color: white;font-weight: 500;font-size: 15px;text-transform: uppercase;" asp-area="" asp-controller="Home" asp-action="Create">Sản Phẩm</a>
+                                style="text-decoration: none;color: white;font-weight: 500;font-size: 15px;text-transform: uppercase;" asp-area="" asp-controller="Home" asp-action="ShowAllProduct">Sản Phẩm</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                style="text-decoration: none;color: white;font-weight: 500;font-size: 15px;text-transform: uppercase;" asp-area="" asp-controller="Home" asp-action="ShowCart">Giỏ Hàng</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         </header>
+  
 
     <div class="">
         <main role="main" class="pb-3">

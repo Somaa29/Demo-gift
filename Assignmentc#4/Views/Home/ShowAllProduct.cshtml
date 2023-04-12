@@ -1,18 +1,21 @@
-﻿@using System.Globalization;
-@model IEnumerable<Assignmentc_4.Models.Product>
+﻿@model IEnumerable<Assignmentc_4.Models.Product>
 
 @{
     ViewData["Title"] = "ShowAllProduct";
 }
 
-<h1>Sản Phẩm</h1>
+<h1>Danh Sách Sản Phẩm</h1>
 
 <p>
-    <a asp-action="Create">Create Sản Phẩm</a>
+         <a asp-action="Create"> 
+        <button type="button" class="btn btn-primary">Thêm</button></a>  
 </p>
 <table class="table">
     <thead>
         <tr>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
@@ -33,89 +36,37 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-             @if (item.SoLuongTon > 5)
-            {
         <tr>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
+                @Html.DisplayFor(modelItem => item.Price)đ
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SoLuongTon)
             </td>
-           <td>
-               <img src="@item.ImgUrl"/>
+            <td>
+                <img src="@item.ImgUrl" style="width: 100px; height: 100px;"/>
+                @*@Html.DisplayFor(modelItem => item.ImgUrl)*@
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Status)
+                @if (item.Status == 0) {
+                    <span>Còn Hàng</span>
+                } else {
+                    <span>Hết Hàng</span>
+                }
+                @*@Html.DisplayFor(modelItem => item.Status)*@
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.Id  }) |
-                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id  })
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id})
             </td>
         </tr>
-        }
 }
     </tbody>
 </table>
-
-  <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="main-content">
-                    <div class="main-header">
-                        <div class="box-heading" style="margin-top: 30px;margin-bottom: 20px;">
-                            <h1 style="text-align:center;">Danh Sách Sản Phẩm</h1>
-                        </div>
-                    </div>
-                    <div class="product-view">
-                        <div class="row">
-                            @foreach (var item in Model) {
-                            @if (item.SoLuongTon > 5)
-                            {
-                                <div class="col-md-3">
-                                    <div class="product-border">
-                                        <div class="product-thumbnail">
-                                            <a href="#"> <img
-                                                src="@(item.ImgUrl)"></a>
-                                        </div>
-                                        <div class="product-info">
-                                            <h3 class="producut-name text-truncate">
-                                                <a class="spbanchay" asp-controller="Home" asp-action="DetailsProduct" asp-route-id="@item.Id"> @(
-                                            item.Name
-                                            )</a>
-                                            </h3>
-                                                                                    
-                                            <div class="product-price">
-                                                <span class=""> @string.Format(new CultureInfo("vi-VN"), "{0:C0}", item.Price)</span>
-                                            </div>
-                                            <div class="form-product">
-                                                <div class="form-product-content">
-                                                    <div class="soluong">
-                                                        <div class="label-sl">Số lượng tồn: @(
-                                                    item.SoLuongTon
-                                                    )</div>
-                                                        <div class="label-sl">Status: @(
-                                                    item.Status
-                                                    )</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            <div class="delete" style="text-align: center;margin-top: 10px;">
-                                                <a type="button" class="btn btn-outline-danger" style="width:100px" asp-controller="Home" asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
-                                            </div>
-
-                                        </div>                  
-                                    </div>
-                            }
-                        }
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>

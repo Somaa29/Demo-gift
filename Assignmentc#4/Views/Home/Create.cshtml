@@ -4,13 +4,10 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
-<h4>Product</h4>
-<hr />
+<h1>Sản Phẩm</h1>
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group" style="display:none">
                 <label asp-for="Id" class="control-label"></label> 
@@ -31,16 +28,24 @@
                 <label asp-for="SoLuongTon" class="control-label"></label>
                 <input asp-for="SoLuongTon" class="form-control" />
                 <span asp-validation-for="SoLuongTon" class="text-danger"></span>
-            </div>
+            </div>        
             <div class="form-group">
-                <label asp-for="ImgUrl" class="control-label"></label>
-                <input asp-for="ImgUrl" class="form-control" />
-                <span asp-validation-for="ImgUrl" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
+               <label asp-for="Status" class="control-label">Trạng Thái</label>
+               <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Status" id="Status1" value="0" checked>
+                    <label class="form-check-label" for="Status1">
+                        Còn Hàng
+                    </label>
+               </div>
+               <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Status" id="Status2" value="1">
+                    <label class="form-check-label" for="Status2">
+                        Hết Hàng
+                    </label>
+               </div>
+            <div class="form-group">              
+              <label asp-for="ImgUrl" class="control-label"></label>        
+               <input  type="file" id="imageFile" name="LinkAnh" />
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
@@ -48,8 +53,3 @@
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-

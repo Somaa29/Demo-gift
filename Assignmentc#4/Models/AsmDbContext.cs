@@ -19,7 +19,7 @@ namespace Assignmentc_4.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-PTN36F3\\SQLEXPRESS;Initial Catalog=Asm1;Integrated Security=True");
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-PTN36F3\\SQLEXPRESS;Initial Catalog=Asm111;Integrated Security=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

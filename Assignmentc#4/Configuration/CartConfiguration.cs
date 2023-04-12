@@ -7,9 +7,10 @@ namespace Assignmentc_4.Configuration
     public class CartConfiguration : IEntityTypeConfiguration<Cart>
     {
         public void Configure(EntityTypeBuilder<Cart> builder)
-        {        
-                builder.HasKey(p => p.UserId);
-                builder.Property(p => p.Description).HasColumnType("nvarchar(100)");
+        {
+            builder.ToTable("GioHang");//đặt tên bảng sql
+            builder.HasKey(p => p.UserId);
+            builder.Property(p => p.Description).HasColumnType("nvarchar(100)");
         }
     }
 }

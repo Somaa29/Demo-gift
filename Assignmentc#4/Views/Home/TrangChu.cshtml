@@ -1,10 +1,24 @@
-﻿
+﻿@model IEnumerable<Assignmentc_4.Models.Product>
+@using System.Globalization;
+
 @{
     ViewData["Title"] = "TrangChu";
+     Assignmentc_4.Models.AsmDbContext db = new Assignmentc_4.Models.AsmDbContext();
+         List<string> imageExtensions = new List<string>()
+    {
+        ".jpg", ".png", ".webp", ".gif", ".pdf", ".tiff", ".jpeg"
+    };
 }
-<div class ="col-7 bg-white" style="height: 400px; margin-left: 300px;">
+ @{
+    List<Product> listProduct = ViewBag.listProduct;
+}
+<p>
+    <a asp-action="Create"></a>
+</p>
+
+      <div class ="col-7 bg-white" style="height: 400px; margin-left: 300px;">
      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-<div class="carousel-indicators">
+    <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -43,4 +57,48 @@
  </div>
  <br />
  </div>
- 
+
+
+
+ <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main-content">
+                    <div class="main-header">
+                        <div class="box-heading" style="margin-top: 30px;margin-bottom: 20px;">
+                            <h1 style="text-align:center;">Danh Sách Sản Phẩm</h1>
+                        </div>
+                    </div>
+  <div class="sp">
+        <div class="row">
+            <h1>Sản Phẩm</h1>
+            @foreach (var item in Model)
+            {       
+                <div class="col-md-3 col-xs-6">
+                <img src="@item.ImgUrl" alt="" style="width: 70%">
+                   <div class="product-info">
+                                            <h3 class="producut-name text-truncate">
+                                                <a class="spbanchay" asp-controller="Home" asp-action="Details" asp-route-id="@item.Id"> @(
+                                            item.Name
+                                            )</a>
+                                            </h3>                    
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="giasp" style="color: red">@item.Price đ</p>
+                    </div>
+                </div>
+                <div class="b-mua" >
+                    <a href="@Url.Action("Delete","Home",new { id= item.Id })">
+                        <button type="button" class="btn btn-outline-danger">Xóa                 
+                        </button>
+                    </a>
+                </div>
+                </div>
+            </div> 
+            }
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>

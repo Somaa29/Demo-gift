@@ -82,7 +82,7 @@ namespace Assignmentc_4.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Carts");
+                    b.ToTable("GioHang", (string)null);
                 });
 
             modelBuilder.Entity("Assignmentc_4.Models.CartDetail", b =>
@@ -91,22 +91,22 @@ namespace Assignmentc_4.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("IDSP")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("Quantity")
+                    b.Property<int>("Amount")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("UserID")
+                    b.Property<Guid>("IdProduct")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("IdUser")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("IDSP");
+                    b.HasIndex("IdProduct");
 
-                    b.HasIndex("UserID");
+                    b.HasIndex("IdUser");
 
-                    b.ToTable("CartDetails");
+                    b.ToTable("CartDetails", (string)null);
                 });
 
             modelBuilder.Entity("Assignmentc_4.Models.Product", b =>
@@ -206,15 +206,13 @@ namespace Assignmentc_4.Migrations
                 {
                     b.HasOne("Assignmentc_4.Models.Product", "Product")
                         .WithMany("CartDetails")
-                        .HasForeignKey("IDSP")
+                        .HasForeignKey("IdProduct")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Assignmentc_4.Models.Cart", "Cart")
                         .WithMany("CartDetails")
-                        .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("IdUser");
 
                     b.Navigation("Cart");
 

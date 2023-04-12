@@ -44,10 +44,14 @@ namespace Assignmentc_4.Services
         {
             return _dbContext.CartDetails.ToList();
         }
-
         public CartDetail GetCartDetailById(Guid id)
         {
-            return _dbContext.CartDetails.FirstOrDefault(p => p.Id == id);
+            return _dbContext.CartDetails.FirstOrDefault(p => p.IdProduct == id);
+        }
+
+        public List<CartDetail> GetCartDetailByName(string name)
+        {
+            throw new NotImplementedException();
         }
 
         public bool UpdateCartDetail(CartDetail p)
@@ -55,7 +59,7 @@ namespace Assignmentc_4.Services
             try
             {
                 var cartDetails = _dbContext.CartDetails.Find(p.Id);
-                cartDetails.Quantity = p.Quantity;
+                cartDetails.Amount = p.Amount;
                 _dbContext.Update(cartDetails);
                 _dbContext.SaveChanges();
                 return true;

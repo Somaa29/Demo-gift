@@ -48,6 +48,11 @@ namespace Assignmentc_4.Services
         {
             return _dbContext.Carts.FirstOrDefault(p => p.UserId == id);
         }
+        public List<Cart> GetCartByName(string name)
+        {
+            //return Context.Product.Where(p => p.Name.Contains(name)).ToList();
+            throw new NotImplementedException();
+        }
 
         public bool UpdateCart(Cart p)
         {
